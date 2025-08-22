@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aasif & Co.| Filmmaker · Video/Image Editor · Photographer</title>
+    <meta name="description"
+        content="A sleek 3D portfolio for a Filmmaker, Video & Image Editor, and Photographer. Responsive, fast, and modern with 3D background, gallery, reels, and contact." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="https://i.postimg.cc/C5VrjfQ9/hero.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" href=`https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=${[sajid_qgabnw,educational_brwwdr]}&profile=cld-looping`> -->
+    <!-- <link rel="stylesheet" href="https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=educational_brwwdr&profile=cld-looping"> -->
+    
+</head>
+
+<body>
+    <!-- 3D Background -->
+    <div id="scene-wrap"><canvas id="bg3d"></canvas></div>
+    <div class="gradient-overlay" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <div class="brand">
+                <div class="logo">A</div>
+                <a href="#home" class="big">Aasif & Co. — Filmmaker's</a>
+            </div>
+            <button class="hamb" aria-label="Open menu" aria-expanded="false"><span></span></button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#reels" class="nav-link">Reels</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <!-- <li><a href="#clients" class="nav-link">Clients</a></li> -->
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="container hero">
+        <div class="hero-text">
+            <span class="kicker">Video & Image Editor · Film Maker · Photographer</span>
+            <h1 class="big">Cinematic Stories in <span
+                    style="background:linear-gradient(135deg, var(--acc), var(--acc-2)); -webkit-background-clip:text; background-clip:text; color:transparent">3D</span>
+                Space</h1>
+            <p class="subtitle">I craft scroll-stopping edits, cinematic films, and striking photography. Explore my
+                reels, browse the gallery, and dive into behind‑the‑scenes workflows—all wrapped in a tactile 3D
+                interface.</p>
+            <div class="hero-cta">
+                <a class="btn primary" href="#reels">Watch Reels ▶</a>
+                <a class="btn" href="#contact">Book a Project</a>
+                <a class="btn " href="#founders">Founders</a>
+                <a class="btn  primary" href="#creator">Creator </a>
+                <!-- <a class="btn" href="#clients">Client Work ↗</a> -->
+            </div>
+        </div>
+        <div class="hero-media">
+            <img src="https://i.postimg.cc/PJhCQpqc/heroimg.jpg"
+                style="width: 410px; height: 450px; border-radius: 30px;  " alt="img">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container grid grid-2">
+            <div class="tilt">
+                <div class="card pad" data-tilt>
+                    <span class="chip">About</span>
+                    <h2>Hey, W`e <strong style="color: aqua;">Aasif & co. </strong>— We freeze time and bend pixels.
+                    </h2>
+                    <p>We are  performance‑minded creator's specializing in dynamic edits, color‑driven storytelling, and
+                        crisp audio design. My work spans music videos, brand films, travel, and product
+                        promos. I love turning raw footage into emotion.</p>
+                    <div class="tools" style="margin-top:10px">
+                        <span class="tool">Premiere Pro</span>
+                        <span class="tool">After Effects</span>
+                        <span class="tool">DaVinci Resolve</span>
+                        <span class="tool">Photoshop</span>
+                        <span class="tool">Lightroom</span>
+                        <span class="tool">Figma</span>
+                        <span class="tool">Sony / Canon</span>
+                        <span class="tool">Gimbal / Drone</span>
+                        <span class="tool">Capcut</span>
+                        <span class="tool">Filmora</span>
+                        <span class="tool">Cinematic</span>
+                        <span class="tool">Chromography</span>
+                        <span class="tool">Film-Making</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="card pad tilt" data-tilt>
+                    <div class="icon">HDR</div>
+                    <h3>Color & Grade</h3>
+                    <p>From flat log to rich cinematic tones. Clean skin, true blacks, tasteful film grain.</p>
+                </div>
+                <div class="card pad tilt" data-tilt>
+                    <div class="icon">SFX</div>
+                    <h3>Sound that Hits</h3>
+                    <p>Impactful whooshes, risers, and textured ambience for that goosebump moment.</p>
+                </div>
+                <div class="card pad tilt" data-tilt>
+                    <div class="icon">3D</div>
+                    <h3>3D & Motion</h3>
+                    <p>Clean type animation, subtle parallax, and 3D accents that feel premium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <span class="kicker">What I Do</span>
+            <h2>End‑to‑end production with a cinematic edge</h2>
+            <div class="grid grid-3" style="margin-top:16px">
+                <!-- <div class="card pad tilt" data-tilt>
+                    <h3>Clients</h3>
+                    <p>Script → Shoot → Edit → Grade → Delivery. Short, punchy, unforgettable.</p>
+                    <a class="btn" href="#clients">See Case Studies ↗</a>
+                </div> -->
+                <div class="card pad tilt" data-tilt>
+                    <h3>Videos/Reels Editing</h3>
+                    <p>Authentic storytelling with elegant pacing and music‑synced transitions.</p>
+                    <a class="btn" href="#reels">Watch Reels ▶</a>
+                </div>
+                <div class="card pad tilt" data-tilt>
+                    <h3>Photography</h3>
+                    <p>Editorial portraits, lifestyle, and product shots with consistent color science.</p>
+                    <a class="btn" href="#gallery">Open Gallery ⤳</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reels / Videos -->
+    <section id="reels">
+        <div class="container">
+            <span class="kicker">Reels</span>
+            <h2>Recent Video Edits & Short Films</h2>
+            <div class="grid grid-3" style="margin-top:16px">
+                <!-- Replace iframe links in data-src with your real videos -->
+
+
+             
+
+                <!-- card2 -->
+                <div class="card pad">
+
+                    <div class="thumb">
+                        <iframe
+                            src="https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=educational_brwwdr&profile=cld-looping"
+                            width="640" height="360" style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+                            allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
+                            frameborder="0"></iframe>
+                    </div>
+                    <h3>Professional </h3>
+                    <p class="subtitle">Cut to beat · Speed ramps · RGB accents</p>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card pad">
+
+                    <div class="thumb">
+                        <iframe
+                            src="https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=rmh_lkaxes&profile=cld-looping"
+                            width="640" height="360" style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+                            allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
+                            frameborder="0"></iframe>
+                    </div>
+                    <h3>Rajasthan Marble House</h3>
+                    <p class="subtitle">Crafted for those who love perfection 🤍</p>
+                </div>
+
+                <!-- card 4 -->
+                <div class="card pad">
+
+                    <div class="thumb">
+                        <iframe
+                            src="https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=kashmir_sdvir3&profile=cld-looping"
+                            width="640" height="360" style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+                            allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
+                            frameborder="0"></iframe>
+                    </div>
+                    <h3>Kashmir Winter</h3>
+                    <p class="subtitle">Kashmir, where winters dream ❄️🌌</p>
+                </div>
+                <!-- card 5 -->
+
+
+                <div class="card pad">
+
+                    <div class="thumb">
+                        <iframe
+                            src="https://player.cloudinary.com/embed/?cloud_name=dfmfw8hxu&public_id=drone_dizfeu&profile=cld-looping"
+                            width="640" height="360" style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+                            allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen
+                            frameborder="0"></iframe>
+
+                    </div>
+                    <h3>Aerial View</h3>
+                    <p class="subtitle">Bird’s-eye beauty 🕊️</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="work-gallery">
+        <div class="container">
+            <span class="kicker">Photography</span>
+            <h2>Selected Stills</h2>
+            <div class="grid grid-3" style="margin-top:16px">
+                <!-- Replace src with your image links; clicking opens lightbox -->
+                
+
+
+
+<div class="card pad"
+                    style="height: 100%;width: fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+                    <!-- <div class="thumb" data-lightbox="image" data-src="https://i.postimg.cc/Bv9V63Nm/tower.jpg"> -->
+                    <a href="https://drive.google.com/file/d/1D2AGArHDHpah9lfbK_rzkfBDx8XOXePA/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/265c8whj/house.jpg" alt="Portrait" style="width: 100vw; " />
+
+                    </a>
+
+                </div>
+<div class="card pad "
+                    style="height:100%; width:fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+
+                    <a href="https://drive.google.com/file/d/1KSMdgBxv2ew7YxTEtT0ASoo1sUtOLsZW/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/Bv9V63Nm/tower.jpg" alt="Portrait"  style="width: 100vw; " />
+                    </a>
+
+                </div>
+
+ <div class="card pad"
+                    style="height: fit-content;width: fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+
+                    <a href="https://drive.google.com/file/d/12fcGKRPVogzUvtkFH63e559R8xVk3hf1/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/JhMzsypd/cup.jpg" alt="Landscape" style="width: 100vw; " />
+                    </a>
+
+                </div>
+                
+                
+                
+                <div class="card pad"
+                    style="height: fit-content;width: fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+
+                    <a href="https://drive.google.com/file/d/1lm92LzihyFN5EUOB826_pwLK971FTmTy/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/xTxKZvcv/sky.jpg" alt="Landscape" style="width: 100vw; " />
+                    </a>
+
+                </div>
+
+                <div class="card pad"
+                    style="height: fit-content;width: fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+
+                    <a href="https://drive.google.com/file/d/1y0nE-tKGMDJS4MsTNhf7JRUncPOzx09R/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/RFP7sx34/aerialview.avif" alt="Landscape" style="width: 100vw; " />
+                    </a>
+
+                </div>
+                <div class="card pad"
+                    style="height: fit-content;width: fit-content; display: flex; align-items: center; justify-content: center; padding: 0;">
+
+                    <a href="https://drive.google.com/file/d/1cNcq-fV2CIUdaNCJS_Hoa3YFNAXCF51D/view?usp=drivesdk">
+                        <img src="https://i.postimg.cc/90myjr29/casper.jpg" alt="Landscape" style="width: 100vw; height: 270px;" />
+                    </a>
+
+                </div>
+               
+            </div>
+        </div>
+    </section>
+<!-- founders -->
+     <div id="founders" class="container grid ">
+                <span class="kicker" >Founders</span>
+                <!-- card1 -->
+                 <div >
+                <div class="card pad" style="margin-top:10px;text-align: center;">
+                    <h1 style="color: aqua;">Mir Sharik Amin</h1>
+                    <p><strong>Email:</strong> <a href="mailto:sharikmir2023@gmail.com">sharikmir2023@gmail.com</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:+91 9906858933">+91 9906858933</a></p>
+                    <p><strong>Location:</strong> Anantnag, Jammu & Kashmir, India</p>
+                    <div style="display:flex; gap:10px; margin-top:10px;flex-wrap: wrap;">
+
+                        <a class="btn" target="_blank"
+                            href="https://www.youtube.com/@sharikfilms">YouTube
+                            ↗</a>
+                        <a class="btn" target="_blank" href="https://www.instagram.com/sharikfilms?igsh=MWttMjloZTMwMjYzNQ==">Instagram ↗</a>
+                        <a class="btn" target="_blank" href="https://wa.me/919906858933">Whatsapp↗</a>
+
+                    </div>
+                </div>
+
+                <!-- card2 -->
+                <div class="card pad" style="margin-top:10px;text-align: center;">
+                    <h1  style="color: aqua;">Shaikh Aasif</h1>
+                    <p><strong>Email:</strong> <a href="mailto:visualsbyaasif@gmail.com">visualsbyaasif@gmail.com</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:+916005564043">+91 6005564043</a></p>
+                    <p><strong>Location:</strong> Anantnag, Jammu & Kashmir, India</p>
+                    <div style="display:flex; gap:10px; margin-top:10px;flex-wrap: wrap;">
+
+                        <a class="btn" target="_blank" href="#">YouTube ↗</a>
+                        <a class="btn" target="_blank" href="https://www.instagram.com/shaikhaasu_01/">Instagram ↗</a>
+                        <a class="btn" target="_blank" href="https://wa.me/916005564043">Whatsapp↗</a>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+    <!-- Contact -->
+    <section  style="text-align: center;">
+        <div >
+           
+            <div   class="card pad" style="height: fit-content;">
+               <span id="contact" class="kicker">Contact</span>
+                <form action="https://formspree.io/f/mrblnzdj" method="POST">
+                    <input name="name" placeholder="Your name" required />
+                    <input type="email" name="email" placeholder="Your email" required />
+                    <input name="subject" placeholder="Project title" />
+                    <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+                    <button class="btn primary" type="submit">Send Message</button>
+                    <!-- <p style="color:#98a7c2; font-size:.9rem">* This uses Formspree. Replace <code>your-id</code> with your endpoint to receive messages in your inbox.</p> -->
+                </form>
+            </div>
+            
+        </div>
+    </section>
+<!-- creator-->
+             <div class="container grid">
+
+            
+                <div  class="card pad" style="margin-top:10px;text-align: center;">
+                    <span id="creator"  class="kicker" >Creator</span>
+                    <h1  style="color: aqua;">Sayaf Hameed Sheikh</h1>
+                    <p><strong>Email:</strong> <a href="mailto:sheikhsayaf@gmail.com">sheikhsayaf@gmail.com</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:+916006653449">+91 6006653449</a></p>
+                    <p><strong>Location:</strong> Anantnag, Jammu & Kashmir, India</p>
+                    <div style="display:flex; gap:10px; margin-top:10px;flex-wrap: wrap;">
+
+                        <a class="btn primary" target="_blank" href="https://sayafhameed.github.io/Portfolio">Portfolio ↗</a>
+                        <a class="btn" target="_blank" href="https://www.instagram.com/hum.raax/">Instagram ↗</a>
+                        <a class="btn" target="_blank" href="https://wa.me/916006653449">Whatsapp↗</a>
+                         <a class="btn" target="_blank" href="https://www.linkedin.com/in/sayaf-hameed-sheikh-08a5b9226/">LinkedIn↗</a>
+
+                    </div>
+                </div>
+                 </div>
+    <footer>
+        <div class="container" style="display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap">
+            <div>© <span id="year"></span> Build by <a href="https://sayafhameed.github.io/Portfolio"
+                    style="color: aqua;">Sayaf Hameed Sheikh</a> — All rights reserved.</div>
+            <div>Built with love & light✦</div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
+        <button class="close-x" aria-label="Close">✕</button>
+        <div id="lightbox-content"></div>
+    </div>
+
+    <!-- Three.js for 3D background -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <!-- <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js"></script> -->
+
+   <script src="script.js"></script>
+</body>
+
+</html>
